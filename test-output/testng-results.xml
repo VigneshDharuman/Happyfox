@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-10T03:16:04 IST" name="Happyfox" finished-at="2020-11-10T03:18:25 IST" duration-ms="141103">
+    <groups>
+    </groups>
+    <test started-at="2020-11-10T03:16:04 IST" name="happyfox Test1" finished-at="2020-11-10T03:17:01 IST" duration-ms="56904">
+      <class name="happyFox_TestCases.Test_Scenario_3">
+        <test-method is-config="true" signature="setup()[pri:0, instance:happyFox_TestCases.Test_Scenario_3@76908cc0]" started-at="2020-11-10T03:16:32 IST" name="setup" finished-at="2020-11-10T03:16:37 IST" duration-ms="5243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="a_login(java.lang.String, java.lang.String)[pri:0, instance:happyFox_TestCases.Test_Scenario_3@76908cc0]" started-at="2020-11-10T03:16:37 IST" name="a_login" data-provider="onlylogindata" finished-at="2020-11-10T03:16:42 IST" duration-ms="4038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[interview_agent]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Interview@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_login -->
+        <test-method signature="b_deleteStatus()[pri:0, instance:happyFox_TestCases.Test_Scenario_3@76908cc0]" started-at="2020-11-10T03:16:42 IST" name="b_deleteStatus" finished-at="2020-11-10T03:17:00 IST" duration-ms="18606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_deleteStatus -->
+        <test-method signature="c_logout()[pri:0, instance:happyFox_TestCases.Test_Scenario_3@76908cc0]" started-at="2020-11-10T03:17:00 IST" name="c_logout" finished-at="2020-11-10T03:17:00 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:happyFox_TestCases.Test_Scenario_3@76908cc0]" started-at="2020-11-10T03:17:00 IST" name="closebrowser" finished-at="2020-11-10T03:17:01 IST" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- happyFox_TestCases.Test_Scenario_3 -->
+      <class name="happyFox_TestCases.Test_Scenario_1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:happyFox_TestCases.Test_Scenario_1@659a969b]" started-at="2020-11-10T03:16:04 IST" name="setup" finished-at="2020-11-10T03:16:10 IST" duration-ms="5791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="a_login(java.lang.String, java.lang.String)[pri:0, instance:happyFox_TestCases.Test_Scenario_1@659a969b]" started-at="2020-11-10T03:16:11 IST" name="a_login" data-provider="onlylogindata" finished-at="2020-11-10T03:16:15 IST" duration-ms="4055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[interview_agent]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Interview@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_login -->
+        <test-method signature="b_creatingStatus(java.lang.String, java.lang.String)[pri:0, instance:happyFox_TestCases.Test_Scenario_1@659a969b]" started-at="2020-11-10T03:16:15 IST" name="b_creatingStatus" data-provider="Statusdata" finished-at="2020-11-10T03:16:31 IST" duration-ms="16440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[new test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[#970f25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_creatingStatus -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:happyFox_TestCases.Test_Scenario_1@659a969b]" started-at="2020-11-10T03:16:31 IST" name="closebrowser" finished-at="2020-11-10T03:16:32 IST" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- happyFox_TestCases.Test_Scenario_1 -->
+    </test> <!-- happyfox Test1 -->
+    <test started-at="2020-11-10T03:17:01 IST" name="happyfox Test2" finished-at="2020-11-10T03:18:25 IST" duration-ms="83940">
+      <class name="happyFox_TestCases.Test_Scenario_3">
+        <test-method is-config="true" signature="setup()[pri:0, instance:happyFox_TestCases.Test_Scenario_3@7a69b07]" started-at="2020-11-10T03:17:58 IST" name="setup" finished-at="2020-11-10T03:18:03 IST" duration-ms="5224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="a_login(java.lang.String, java.lang.String)[pri:0, instance:happyFox_TestCases.Test_Scenario_3@7a69b07]" started-at="2020-11-10T03:18:03 IST" name="a_login" data-provider="onlylogindata" finished-at="2020-11-10T03:18:07 IST" duration-ms="3878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[interview_agent]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Interview@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_login -->
+        <test-method signature="b_deleteStatus()[pri:0, instance:happyFox_TestCases.Test_Scenario_3@7a69b07]" started-at="2020-11-10T03:18:07 IST" name="b_deleteStatus" finished-at="2020-11-10T03:18:24 IST" duration-ms="17548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_deleteStatus -->
+        <test-method signature="c_logout()[pri:0, instance:happyFox_TestCases.Test_Scenario_3@7a69b07]" started-at="2020-11-10T03:18:24 IST" name="c_logout" finished-at="2020-11-10T03:18:24 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:happyFox_TestCases.Test_Scenario_3@7a69b07]" started-at="2020-11-10T03:18:24 IST" name="closebrowser" finished-at="2020-11-10T03:18:25 IST" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- happyFox_TestCases.Test_Scenario_3 -->
+      <class name="happyFox_TestCases.Test_Scenario_1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:happyFox_TestCases.Test_Scenario_1@1ddf84b8]" started-at="2020-11-10T03:17:01 IST" name="setup" finished-at="2020-11-10T03:17:06 IST" duration-ms="5250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="a_login(java.lang.String, java.lang.String)[pri:0, instance:happyFox_TestCases.Test_Scenario_1@1ddf84b8]" started-at="2020-11-10T03:17:07 IST" name="a_login" data-provider="onlylogindata" finished-at="2020-11-10T03:17:12 IST" duration-ms="5044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[interview_agent]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Interview@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_login -->
+        <test-method signature="b_creatingStatus(java.lang.String, java.lang.String)[pri:0, instance:happyFox_TestCases.Test_Scenario_1@1ddf84b8]" started-at="2020-11-10T03:17:12 IST" name="b_creatingStatus" data-provider="Statusdata" finished-at="2020-11-10T03:17:28 IST" duration-ms="16289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[new test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[#970f25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_creatingStatus -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:happyFox_TestCases.Test_Scenario_1@1ddf84b8]" started-at="2020-11-10T03:17:28 IST" name="closebrowser" finished-at="2020-11-10T03:17:29 IST" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- happyFox_TestCases.Test_Scenario_1 -->
+      <class name="happyFox_TestCases.Test_Scenario_2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:happyFox_TestCases.Test_Scenario_2@1139b2f3]" started-at="2020-11-10T03:17:29 IST" name="setup" finished-at="2020-11-10T03:17:34 IST" duration-ms="5252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="a_CreateNewTicket(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:happyFox_TestCases.Test_Scenario_2@1139b2f3]" started-at="2020-11-10T03:17:34 IST" name="a_CreateNewTicket" data-provider="newticketdata" finished-at="2020-11-10T03:17:40 IST" duration-ms="6166" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[new test ticket]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[new test ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[\src\test\java\happyFox_utilities\sample.JPG]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vignesh]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dvigneshdvignesh92@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9791016357]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [New Ticket  - Tenmiles - powered by HappyFox] but found [New Ticket - Tenmiles - powered by HappyFox]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [New Ticket  - Tenmiles - powered by HappyFox] but found [New Ticket - Tenmiles - powered by HappyFox]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at happyFox_utilities.Assertion_helper.verifyTitle(Assertion_helper.java:22)
+at happyFox_TestCases.Test_Scenario_2.a_CreateNewTicket(Test_Scenario_2.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_CreateNewTicket -->
+        <test-method signature="b_login(java.lang.String, java.lang.String)[pri:0, instance:happyFox_TestCases.Test_Scenario_2@1139b2f3]" started-at="2020-11-10T03:17:40 IST" name="b_login" data-provider="onlylogindata" finished-at="2020-11-10T03:17:44 IST" duration-ms="3250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[interview_agent]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Interview@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_login -->
+        <test-method signature="c_SelectTicket_responding()[pri:0, instance:happyFox_TestCases.Test_Scenario_2@1139b2f3]" started-at="2020-11-10T03:17:44 IST" name="c_SelectTicket_responding" finished-at="2020-11-10T03:17:57 IST" duration-ms="13349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_SelectTicket_responding -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:happyFox_TestCases.Test_Scenario_2@1139b2f3]" started-at="2020-11-10T03:17:57 IST" name="closebrowser" finished-at="2020-11-10T03:17:58 IST" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- happyFox_TestCases.Test_Scenario_2 -->
+    </test> <!-- happyfox Test2 -->
+  </suite> <!-- Happyfox -->
+</testng-results>

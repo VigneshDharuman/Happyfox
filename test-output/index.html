@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Happyfox" class="navigator-link">
+              <span class="suite-name border-failed">Happyfox</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Happyfox" class="navigator-link ">
+                    <span>C:\Users\Vignesh\eclipse-workspace\HappyFox\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Happyfox" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Happyfox" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Happyfox" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Happyfox" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Happyfox" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Happyfox" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 1 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Happyfox" class="hide-methods failed suite-Happyfox"> (hide)</a> <!-- hide-methods failed suite-Happyfox -->
+                      <a href="#" panel-name="suite-Happyfox" class="show-methods failed suite-Happyfox"> (show)</a> <!-- show-methods failed suite-Happyfox -->
+                    </span>
+                    <div class="method-list-content failed suite-Happyfox">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Happyfox" title="happyFox_TestCases.Test_Scenario_2" class="method navigator-link" hash-for-method="a_CreateNewTicket(new test ticket, new test , \src\test\java\happyFox_utilities\sample.JPG, Vignesh, dvigneshdvignesh9...)">a_CreateNewTicket(new test ticket, new test , \src\test\java\happyFox_utilities\sample.JPG, Vignesh, dvigneshdvignesh9...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Happyfox -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Happyfox" class="hide-methods passed suite-Happyfox"> (hide)</a> <!-- hide-methods passed suite-Happyfox -->
+                      <a href="#" panel-name="suite-Happyfox" class="show-methods passed suite-Happyfox"> (show)</a> <!-- show-methods passed suite-Happyfox -->
+                    </span>
+                    <div class="method-list-content passed suite-Happyfox">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Happyfox" title="happyFox_TestCases.Test_Scenario_3" class="method navigator-link" hash-for-method="a_login(interview_agent, Interview@123)">a_login(interview_agent, Interview@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Happyfox" title="happyFox_TestCases.Test_Scenario_1" class="method navigator-link" hash-for-method="a_login(interview_agent, Interview@123)">a_login(interview_agent, Interview@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Happyfox" title="happyFox_TestCases.Test_Scenario_1" class="method navigator-link" hash-for-method="a_login(interview_agent, Interview@123)">a_login(interview_agent, Interview@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Happyfox" title="happyFox_TestCases.Test_Scenario_3" class="method navigator-link" hash-for-method="a_login(interview_agent, Interview@123)">a_login(interview_agent, Interview@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Happyfox" title="happyFox_TestCases.Test_Scenario_1" class="method navigator-link" hash-for-method="b_creatingStatus(new test, #970f25)">b_creatingStatus(new test, #970f25)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Happyfox" title="happyFox_TestCases.Test_Scenario_1" class="method navigator-link" hash-for-method="b_creatingStatus(new test, #970f25)">b_creatingStatus(new test, #970f25)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Happyfox" title="happyFox_TestCases.Test_Scenario_3" class="method navigator-link" hash-for-method="b_deleteStatus">b_deleteStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Happyfox" title="happyFox_TestCases.Test_Scenario_3" class="method navigator-link" hash-for-method="b_deleteStatus">b_deleteStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Happyfox" title="happyFox_TestCases.Test_Scenario_2" class="method navigator-link" hash-for-method="b_login(interview_agent, Interview@123)">b_login(interview_agent, Interview@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Happyfox" title="happyFox_TestCases.Test_Scenario_2" class="method navigator-link" hash-for-method="c_SelectTicket_responding">c_SelectTicket_responding</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Happyfox" title="happyFox_TestCases.Test_Scenario_3" class="method navigator-link" hash-for-method="c_logout">c_logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Happyfox" title="happyFox_TestCases.Test_Scenario_3" class="method navigator-link" hash-for-method="c_logout">c_logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Happyfox -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Happyfox" class="panel Happyfox">
+          <div class="suite-Happyfox-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">happyFox_TestCases.Test_Scenario_2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="a_CreateNewTicket(new test ticket, new test , \src\test\java\happyFox_utilities\sample.JPG, Vignesh, dvigneshdvignesh9...)">
+                  </a> <!-- a_CreateNewTicket(new test ticket, new test , \src\test\java\happyFox_utilities\sample.JPG, Vignesh, dvigneshdvignesh9...) -->
+                  <span class="method-name">a_CreateNewTicket</span>
+                  <span class="parameters">(new test ticket, new test , \src\test\java\happyFox_utilities\sample.JPG, Vignesh, dvigneshdvignesh92@gmail.com, 9791016357)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [New Ticket  - Tenmiles - powered by HappyFox] but found [New Ticket - Tenmiles - powered by HappyFox]
+	at happyFox_utilities.Assertion_helper.verifyTitle(Assertion_helper.java:22)
+	at happyFox_TestCases.Test_Scenario_2.a_CreateNewTicket(Test_Scenario_2.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Happyfox-class-failed -->
+          <div class="suite-Happyfox-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">happyFox_TestCases.Test_Scenario_3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="a_login(interview_agent, Interview@123)">
+                  </a> <!-- a_login(interview_agent, Interview@123) -->
+                  <span class="method-name">a_login</span>
+                  <span class="parameters">(interview_agent, Interview@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="a_login(interview_agent, Interview@123)">
+                  </a> <!-- a_login(interview_agent, Interview@123) -->
+                  <span class="method-name">a_login</span>
+                  <span class="parameters">(interview_agent, Interview@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="b_deleteStatus">
+                  </a> <!-- b_deleteStatus -->
+                  <span class="method-name">b_deleteStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="b_deleteStatus">
+                  </a> <!-- b_deleteStatus -->
+                  <span class="method-name">b_deleteStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="c_logout">
+                  </a> <!-- c_logout -->
+                  <span class="method-name">c_logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="c_logout">
+                  </a> <!-- c_logout -->
+                  <span class="method-name">c_logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Happyfox-class-passed -->
+          <div class="suite-Happyfox-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">happyFox_TestCases.Test_Scenario_1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="a_login(interview_agent, Interview@123)">
+                  </a> <!-- a_login(interview_agent, Interview@123) -->
+                  <span class="method-name">a_login</span>
+                  <span class="parameters">(interview_agent, Interview@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="a_login(interview_agent, Interview@123)">
+                  </a> <!-- a_login(interview_agent, Interview@123) -->
+                  <span class="method-name">a_login</span>
+                  <span class="parameters">(interview_agent, Interview@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="b_creatingStatus(new test, #970f25)">
+                  </a> <!-- b_creatingStatus(new test, #970f25) -->
+                  <span class="method-name">b_creatingStatus</span>
+                  <span class="parameters">(new test, #970f25)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="b_creatingStatus(new test, #970f25)">
+                  </a> <!-- b_creatingStatus(new test, #970f25) -->
+                  <span class="method-name">b_creatingStatus</span>
+                  <span class="parameters">(new test, #970f25)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Happyfox-class-passed -->
+          <div class="suite-Happyfox-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">happyFox_TestCases.Test_Scenario_2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="b_login(interview_agent, Interview@123)">
+                  </a> <!-- b_login(interview_agent, Interview@123) -->
+                  <span class="method-name">b_login</span>
+                  <span class="parameters">(interview_agent, Interview@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="c_SelectTicket_responding">
+                  </a> <!-- c_SelectTicket_responding -->
+                  <span class="method-name">c_SelectTicket_responding</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Happyfox-class-passed -->
+        </div> <!-- panel Happyfox -->
+        <div panel-name="test-xml-Happyfox" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Vignesh\eclipse-workspace\HappyFox\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Happyfox&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;happyFox_utilities.Reporting&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;happyfox Test1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;happyFox_TestCases.Test_Scenario_1&quot;/&gt;
+      &lt;class name=&quot;happyFox_TestCases.Test_Scenario_3&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- happyfox Test1 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;happyfox Test2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;happyFox_TestCases.Test_Scenario_1&quot;/&gt;
+      &lt;class name=&quot;happyFox_TestCases.Test_Scenario_2&quot;/&gt;
+      &lt;class name=&quot;happyFox_TestCases.Test_Scenario_3&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- happyfox Test2 --&gt;
+&lt;/suite&gt; &lt;!-- Happyfox --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Happyfox" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Happyfox</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">happyfox Test1 (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">happyfox Test2 (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Happyfox" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Happyfox</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Happyfox" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Happyfox</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Happyfox');
+function tableData_Happyfox() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'b_deleteStatus')
+data.setCell(0, 2, 'happyFox_TestCases.Test_Scenario_3')
+data.setCell(0, 3, 18606);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'b_deleteStatus')
+data.setCell(1, 2, 'happyFox_TestCases.Test_Scenario_3')
+data.setCell(1, 3, 17548);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'b_creatingStatus')
+data.setCell(2, 2, 'happyFox_TestCases.Test_Scenario_1')
+data.setCell(2, 3, 16440);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'b_creatingStatus')
+data.setCell(3, 2, 'happyFox_TestCases.Test_Scenario_1')
+data.setCell(3, 3, 16289);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'c_SelectTicket_responding')
+data.setCell(4, 2, 'happyFox_TestCases.Test_Scenario_2')
+data.setCell(4, 3, 13349);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'a_CreateNewTicket')
+data.setCell(5, 2, 'happyFox_TestCases.Test_Scenario_2')
+data.setCell(5, 3, 6166);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'a_login')
+data.setCell(6, 2, 'happyFox_TestCases.Test_Scenario_1')
+data.setCell(6, 3, 5044);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'a_login')
+data.setCell(7, 2, 'happyFox_TestCases.Test_Scenario_1')
+data.setCell(7, 3, 4055);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'a_login')
+data.setCell(8, 2, 'happyFox_TestCases.Test_Scenario_3')
+data.setCell(8, 3, 4038);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'a_login')
+data.setCell(9, 2, 'happyFox_TestCases.Test_Scenario_3')
+data.setCell(9, 3, 3878);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'b_login')
+data.setCell(10, 2, 'happyFox_TestCases.Test_Scenario_2')
+data.setCell(10, 3, 3250);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'c_logout')
+data.setCell(11, 2, 'happyFox_TestCases.Test_Scenario_3')
+data.setCell(11, 3, 158);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'c_logout')
+data.setCell(12, 2, 'happyFox_TestCases.Test_Scenario_3')
+data.setCell(12, 3, 123);
+window.suiteTableData['Happyfox']= { tableData: data, tableDiv: 'times-div-Happyfox'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Happyfox">
+              </div> <!-- times-div-Happyfox -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Happyfox" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Happyfox</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Happyfox" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Happyfox" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">happyFox_TestCases.Test_Scenario_1</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">a_login(interview_agent, Interview@123)</span>
+                <span class="method-start">6508 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">b_creatingStatus(new test, #970f25)</span>
+                <span class="method-start">10733 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">27175 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">happyFox_TestCases.Test_Scenario_3</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">27883 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">a_login(interview_agent, Interview@123)</span>
+                <span class="method-start">33268 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">b_deleteStatus</span>
+                <span class="method-start">37308 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">c_logout</span>
+                <span class="method-start">55916 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">56075 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">happyFox_TestCases.Test_Scenario_1</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">56995 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">a_login(interview_agent, Interview@123)</span>
+                <span class="method-start">62345 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">b_creatingStatus(new test, #970f25)</span>
+                <span class="method-start">67489 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">83779 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">happyFox_TestCases.Test_Scenario_2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">84465 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">a_CreateNewTicket(new test ticket, new test , \src\test\java\happyFox_utilities\sample.JPG, Vignesh, dvigneshdvignesh9...)</span>
+                <span class="method-start">89897 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">b_login(interview_agent, Interview@123)</span>
+                <span class="method-start">96138 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">c_SelectTicket_responding</span>
+                <span class="method-start">99389 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">112739 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">happyFox_TestCases.Test_Scenario_3</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">113424 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">a_login(interview_agent, Interview@123)</span>
+                <span class="method-start">118721 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">b_deleteStatus</span>
+                <span class="method-start">122600 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">c_logout</span>
+                <span class="method-start">140149 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">140273 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
